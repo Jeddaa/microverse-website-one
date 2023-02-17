@@ -1,0 +1,252 @@
+* {
+  font-family: sans-serif;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+
+.template1 {
+  /* position: absolute; */
+
+  /* width: 375px;
+  height: 718px; */
+  left: 0;
+  top: 0;
+}
+
+.headline {
+  display: flex;
+  flex-direction: column;
+  background: url("./icons/main-bg.png") white;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: #fff;
+  padding: 100px 5%;
+  border-radius: 0 0 0 100px;
+  position: relative;
+}
+
+.intro {
+  display: flex;
+  font-family: sans-serif;
+  font-style: normal;
+  line-height: 130%;
+  font-size: 100px;
+  color: #2d389b;
+}
+
+.bio {
+  flex: none;
+  flex-grow: 0;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+}
+
+ul {
+  display: flex;
+  padding: 0;
+  margin-top: 10px;
+}
+
+ol {
+  padding: 0;
+  padding-right: 20px;
+}
+
+h4 {
+  color: #7f8cff;
+}
+
+/* .h6 {
+  width: 117px;
+  height: 24px;
+} */
+
+.logo {
+  color: #6070ff;
+}
+
+.about-me {
+  border-radius: 0 0 0 100px;
+  position: absolute;
+  background-size: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  width: 375px;
+  height: 1263px;
+  left: 0;
+  top: 4769px;
+  background-repeat: no-repeat;
+  padding: 100px 16px;
+}
+
+.about-me-intro {
+  flex: none;
+  flex-grow: 0;
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 90%;
+  margin-bottom: 30px;
+  width: 300px;
+  height: 144px;
+}
+
+.resume {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  width: 158px;
+  height: 40px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396df2;
+  background-color: #fff;
+  border-radius: 15px 15px 15px;
+  padding: 0.75em;
+}
+
+.java,
+.html,
+.css,
+.framework {
+  background-color: #e5e5e5;
+  text-align: auto;
+  width: 85%;
+  height: 70px;
+  font-style: normal;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  margin-top: 12px;
+  margin-left: 5px;
+  border-radius: 8px;
+  padding-top: 10px;
+}
+
+.lang {
+  display: flex;
+  flex-direction: column;
+  margin-right: 12px;
+}
+
+.lang-img {
+  margin-left: 12px;
+
+  /* margin-top: 10px; */
+  margin-right: 12px;
+}
+
+.framework {
+  /* min-height: 100vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  /* display: inline-block; */
+  position: relative;
+}
+
+.framework-btn {
+  border: none;
+  border-radius: 5px;
+  padding: 15px 30px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.framework-btn:hover {
+  background-color: #ddd;
+}
+
+.framework-options {
+  display: none;
+  position: absolute;
+  overflow: auto;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.4);
+}
+
+.framework:hover .framework-options {
+  display: block;
+}
+
+.framework-options a {
+  display: block;
+  color: #000;
+
+  /* padding: 5px; */
+  text-decoration: none;
+  padding: 20px 40px;
+}
+
+.framework-options option:hover {
+  color: #0a0a23;
+  background-color: #ddd;
+  border-radius: 5px;
+}
+
+.contact-me {
+  border-radius: 100px 0 0 0;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  width: 375px;
+  background: 100% no-repeat #6070ff;
+  height: auto;
+  left: 0;
+  top: 900px;
+  background-repeat: no-repeat;
+  padding: 100px 16px;
+  align-items: center;
+
+  /* margin-left: 10px; */
+  color: #fff;
+}
+
+#input-name,
+#input-email,
+#input-message {
+  border: 1px;
+  border-radius: 8px;
+  line-height: 40px;
+  margin-bottom: 12px;
+  text-align: center;
+}
+
+#submit {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.03em;
+  border: 1px;
+  color: #6070ff;
+  line-height: 30px;
+  margin-top: 15px;
+  background-color: #fff;
+}
+
+/* .lang-text {
+  position: absolute;
+  height: 14px;
+  margin-left: 76px;
+  margin-right: 12px;
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+} */
