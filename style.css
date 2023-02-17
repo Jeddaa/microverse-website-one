@@ -24,7 +24,7 @@ body {
   font-style: normal;
   line-height: 130%;
   font-size: 100px;
-  color: #2d389b;
+  color: #172b4d;
 }
 
 .bio {
@@ -35,6 +35,7 @@ body {
   font-weight: 400;
   font-size: 20px;
   line-height: 150%;
+  color: #172b4d;
 }
 
 .socials {
