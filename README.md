@@ -1,6 +1,6 @@
 <a name="readme-top"></a>
 
-# Portfolio Set Up
+# Portfolio: setup and mobile first
 
 <!-- TABLE OF CONTENTS -->
 
