@@ -1,19 +1,52 @@
-/* @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap"); */
 
-/* Style the navigation menu */
-.topnav {
-  overflow: hidden;
-  background-color: #333;
-  position: relative;
+* {
+  font-family: 'Poppins';
 }
-.topnav #myLinks {
-  display: none;
-}
-.nav-bar {
-  display: block;
+.headline{
+  display: flex;
+  flex-direction: column;
+  background-image: url('./icons/Header\ bg@2x.png');
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
   position: absolute;
-  right: 0;
-  top: 0;
-  background: white;
+  justify-content: center;
+  background-color: #fff;
+  padding: 200px;
+}
+.intro{
+  display: flex;
+  align-items: center;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+  font-size: 20px;
+  color: #2d389b;
+}
+.bio{
+  flex: none;
+  flex-grow: 0;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+}
+
+.socials {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+ul{
+  display: flex;
+  gap: 40px;
+  margin-top: 10px;
+}
+h4 {
+  color: #7F8CFF; ;
 }
