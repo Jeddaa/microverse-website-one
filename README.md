@@ -77,7 +77,7 @@ Clone this repository to your desired folder:
 
 ```shell
   cd my-folder
-  git clone git@github.com:ikennarichard/my-portfolio.git
+  git clone git@github.com:Jeddaa/microverse-website-one.git
 ```
 
 ### Install
