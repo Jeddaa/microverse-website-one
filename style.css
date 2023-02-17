@@ -1,31 +1,35 @@
-@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins&display=swap");
 
-* {
+*/ * {
   font-family: 'Poppins';
 }
-.headline{
+
+body {
+  background-color: #E5E5E5;
+}
+
+.headline {
   display: flex;
   flex-direction: column;
-  background-image: url('./icons/Header\ bg@2x.png');
-  align-items: center;
+  background: url("./icons/main-bg.png") white;
   background-repeat: no-repeat;
   background-size: 100%;
-  position: absolute;
-  justify-content: center;
   background-color: #fff;
-  padding: 200px;
+  padding: 100px 5%;
+  border-radius: 0 0 0 100px;
+  position: relative;
 }
-.intro{
+
+.intro {
   display: flex;
-  align-items: center;
   font-family: Poppins;
   font-style: normal;
-  font-weight: 700;
   line-height: 130%;
-  font-size: 20px;
+  font-size: 100px;
   color: #2d389b;
 }
-.bio{
+
+.bio {
   flex: none;
   flex-grow: 0;
   font-family: Poppins;
@@ -38,15 +42,24 @@
 .socials {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: space-between;
 }
 
-ul{
+ul {
   display: flex;
-  gap: 40px;
+  padding: 0;
   margin-top: 10px;
+
 }
+
+ol {
+  padding: 0;
+  padding-right: 20px;
+}
+
 h4 {
-  color: #7F8CFF; ;
+  color: #7F8CFF;
+}
+.logo
+{
+  color: #6070FF;
 }
