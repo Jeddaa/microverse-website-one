@@ -1,41 +1,10 @@
 <a name="readme-top"></a>
 
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-OPTIONAL SECTIONS:
-- FAQ
-
-After you're finished please remove all the comments and instructions!
--->
-
-<div align="center">
-  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
-  <br/>
-
-  <h3><b>Jeddaa's Portfolio</b></h3>
-
-</div>
+# Portfolio Set Up
 
 <!-- TABLE OF CONTENTS -->
 
-# 📗 Table of Contents
+## 📗 Table of Contents
 
 - [📖 About the Project](#about-project)
   - [🛠 Built With](#built-with)
@@ -59,29 +28,19 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Hello-Microverse] <a name="about-project"></a>
+# 📖 [Portfolio] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+Hello welcome to my **[Portfolio]**, here you'll find details about me and some of the projects I've worked on.
 
-**[Hello-Microverse]** This document is my professional portfolio, which showcases my skills by providing links to my Projects, and also give opportunity to connect to me via my socials.
+## 🛠 Built With <a name="built-with"></a>
 
-## 🛠 Built With <a name="built-with">HTML & CSS</a>
-
-### Tech Stack <a name="tech-stack">HTML & CSS</a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
+### Tech Stack <a name="tech-stack"></a>
 
 <details>
-  <summary>Styling</summary>
+  <summary>Client</summary>
   <ul>
-    <li><a href="https://www.w3schools.com/css/">CSS</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Code formating</summary>
-  <ul>
-    <li><a href="https://github.com/microverseinc/linters-config">HTML & CSS Linters</a></li>
+    <li><a href="#">HTML</a></li>
+    <li><a href="#">CSS</a></li>
   </ul>
 </details>
 
@@ -89,9 +48,8 @@ After you're finished please remove all the comments and instructions!
 
 ### Key Features <a name="key-features"></a>
 
-- **[Heading_tag_h1]**
-- **[CSS_Styling]**
-- **[Linters_file_to_test_code_format]**
+- Toolbar section
+- Healine sections
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -99,9 +57,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
-
-- [Live Demo Link](https://github.com/joeveloper/portfolio)
+If you prefer to see the finished version of the project visit the [live site]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -113,58 +69,57 @@ To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
-In order to run this project you need:
-
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+In order to run this project you need to have [VS code](https://code.visualstudio.com), the [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer) extension and a web browser.
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
-
-```sh
+```shell
   cd my-folder
-  git clone git@github.com:myaccount/my-project.git
+  git clone git@github.com:Jeddaa/microverse-website-one.git
 ```
---->
 
 ### Install
 
 Install this project with:
 
-```sh
-  open the index file with your browser either using the path or liveserver
-```
+<!--
+Example command:
 
--
+```sh
+  cd my-project
+  gem install
+```
+--->
+
+### Usage
+
+Once you have the live server extension, you need the click on the **Go Live** icon at the bottom of the VS code window or you could hit **'Alt + L + O'** on your keyboard.
 
 ### Run tests
 
 To run tests, run the following command:
 
-```sh
-  configure the linters.yml file
-```
+<!--
+Example command:
 
--
+```sh
+  bin/rails test test/models/article_test.rb
+```
+--->
 
 ### Deployment
 
 You can deploy this project using:
 
+<!--
 Example:
 
 ```sh
-Github pages
+
 ```
+ -->
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -172,25 +127,16 @@ Github pages
 
 ## 👥 Authors <a name="authors"></a>
 
-> Mention all of the collaborators of this project.
-
 👤 **Author1**
 
-- GitHub: [@jeddaa](https://github.com/jeddaa)
-- Twitter: [@\_jeddaah](https://twitter.com/_jeddaah_)
-- LinkedIn: [Oduwole Fatihah](https://www.linkedin.com/in/fatihahoduwole//)
+- GitHub: [Jeddaa](https://github.com/jeddaa)
+- Twitter: [@\_jeddaah](https://twitter.com/_jeddaah)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-
-- The contacts sectiom
-- The about section
-- Links to my works and my socials
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -200,17 +146,13 @@ Github pages
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- SUPPORT -->
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
-If you like this project, kindly reach out to me for contributions and recommendations
+Kindly help check for errors or bugs. Feel free to contact me on what could be done better
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -218,25 +160,7 @@ If you like this project, kindly reach out to me for contributions and recommend
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-> Give credit to everyone who inspired your codebase.
-
-I and also the authors of varous material that were helpful during this development
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-> Add at least 2 questions new developers would ask when they decide to use your project.
-
-- **What does this project stand for?**
-
-  - This is my personal professional portfolio
-
-- **Does this project have a database?**
-
-  - No, this is a frontend only type of project
+A special thank you to my learning partners and standup team for their help and support. Thank you to my friends for always answering my numerous questions too.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -244,6 +168,6 @@ I and also the authors of varous material that were helpful during this developm
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./LICENSE) licensed.
+This project is [MIT](https://github.com/Jeddaa/microverse-website-one/blob/more-features/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
