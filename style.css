@@ -4,7 +4,7 @@
 
 body {
   background-color: #e5e5e5;
-  font-family: 'Poppins' sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .template1 {
@@ -156,11 +156,11 @@ body {
   line-height: 16px;
   margin-top: 10px;
 }
+
 .canopy-list > li {
-  color: #7A869A;
+  color: #7a869a;
   font-weight: 600;
   font-size: 13px;
-
 }
 
 #h-tagaboutme {
@@ -226,6 +226,7 @@ body {
   font-size: 12px;
   border: 0;
 }
+
 .seeproject.active:hover {
   background-color: #000;
 }
@@ -260,9 +261,9 @@ body {
 .tech > li {
   list-style-type: none;
 }
+
 .lang-img {
   margin-left: 12px;
-
   margin-top: 8px;
   margin-right: 12px;
 }
@@ -280,16 +281,12 @@ body {
 }
 
 .lang-ul > li {
-  border-radius: 3px;
-  background: var(--bright-gray);
-  color: var(--arsenic);
-  /* justify-content: flex-start; */
+  color: #253858;
   list-style-type: none;
-  height: fit-content;
   font-style: normal;
   font-size: 17px;
   border: 1px;
-  background: #F7F7F9;
+  background: #f7f7f9;
   border-radius: 8px;
   width: 90%;
   height: 66.72px;
@@ -301,7 +298,7 @@ body {
   height: 24px;
   font-weight: 500;
   left: 75px;
-  top: calc(45% - 15px/2 - 0.36px);
+  top: calc(45% - 15px / 2 - 0.36px);
 }
 
 #framework-btn,
