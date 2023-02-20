@@ -346,6 +346,12 @@ hr {
   text-align: center;
   padding: 70px 16px 20px 16px;
 }
+
+.dot1 {
+  position: relative;
+  top: -30px;
+}
+
 .contactme-header {
   color: #fff;
   padding-bottom: 20px;
@@ -407,4 +413,18 @@ hr {
   margin-bottom: 30px;
   border: 1px solid #7F8CFF;
   /* border: 1px solid #6070ff; */
+}
+
+.dot2 {
+  position: absolute;
+  right: 70px;
+  bottom: 60px;
+  width: 30px;
+  height: 30px;
+}
+
+.rec {
+  position: absolute;
+  bottom: 55px;
+  right: 25px;
 }
