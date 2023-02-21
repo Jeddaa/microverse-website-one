@@ -379,6 +379,7 @@ hr {
 
 #mssg {
   height: 170px;
+  /* width: 340px; */
   border-radius: 8px;
   border: 1px solid #CFD8DC;
   margin-bottom: 20px;
@@ -390,6 +391,8 @@ hr {
  #mssg::placeholder {
   text-align:left;
   position: absolute;
+  top: 15px;
+  bottom: 15px;
   left: 16px;
   right: 38px;
 }
@@ -399,11 +402,10 @@ hr {
   align-items: center;
   text-align: center;
   font-style: normal;
-  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  color: #396df2;
+  color: #6070FF;
   background-color: #fff;
   border-radius: 8px;
   padding: 12px 16px;
@@ -413,6 +415,10 @@ hr {
   margin-bottom: 30px;
   border: 1px solid #7F8CFF;
   /* border: 1px solid #6070ff; */
+}
+
+.getintouch:active {
+  background: #2230d2;
 }
 
 .dot2 {
