@@ -1,10 +1,11 @@
+/* stylelint(selector-not-notation) */
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
 }
 
 body {
   background-color: #e5e5e5;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
 }
 
 .template1 {
@@ -26,7 +27,7 @@ body {
 
 .intro {
   display: flex;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   line-height: 130%;
   font-size: 100px;
@@ -37,7 +38,7 @@ body {
 .aboutme-intro {
   flex: none;
   flex-grow: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -85,13 +86,13 @@ body {
   align-items: center;
   text-align: center;
   font-style: normal;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
   color: #396df2;
   background-color: #fff;
-  border-radius: 15px 15px 15px;
+  border-radius: 15px;
   padding: 0.75em;
   width: 170px;
   height: 50px;
@@ -178,11 +179,12 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   background-color: #fff;
-  padding: 100px 5%;
+  padding: 100px 5% 120px;
   border-radius: 0 25px 0 0;
   position: relative;
   left: 0;
-  top: 100px;
+  top: 90px;
+  margin-bottom: 20px;
 }
 
 .about-header {
@@ -233,7 +235,7 @@ body {
   align-items: center;
   text-align: center;
   font-style: normal;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -337,24 +339,40 @@ hr {
 }
 
 .contact-me {
-  border-radius: 25px 0 0 0;
+  border-radius: 80px 0 0;
   border: 1px;
   background-color: #6070ff;
-  top: 70px;
+  top: 10px;
   color: #fff;
   text-align: center;
-  padding: 70px 16px 20px 16px;
+  padding: 40px 16px 20px;
 }
 
-.dot1 {
-  position: relative;
-  top: -30px;
-}
+.contact-me::before {
+  content: url('./icons/bottom-icon.png');
+  position: absolute;
+  bottom: 40px;
+  right: 20px;
+  }
 
 .contactme-header {
   color: #fff;
   padding-bottom: 20px;
   font-size: 40px;
+}
+
+.contactme-header::before {
+  content: url('./icons/dot1.png');
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.contactme-form::before {
+  content: url('./icons/top-icon.png');
+  position: absolute;
+  right: -15px;
+  top: 15px;
 }
 
 .contactme-p {
@@ -364,6 +382,7 @@ hr {
   color: #fff;
   padding-bottom: 20px;
 }
+
 
 #name {
   height: 48px;
@@ -415,6 +434,11 @@ hr {
 
 .getintouch:active {
   background: #2230d2;
+}
+
+.getintouch:hover {
+  background-color: #6070ff;
+  color: #fff;
 }
 
 .dot2 {
