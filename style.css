@@ -353,7 +353,7 @@ hr {
   position: absolute;
   bottom: 40px;
   right: 20px;
-  }
+}
 
 .contactme-header {
   color: #fff;
@@ -382,7 +382,6 @@ hr {
   color: #fff;
   padding-bottom: 20px;
 }
-
 
 #name {
   height: 48px;
