@@ -378,14 +378,14 @@ hr {
 #mssg {
   height: 170px;
   border-radius: 8px;
-  border: 1px solid #CFD8DC;
+  border: 1px solid #Cfd8dc;
   margin-bottom: 20px;
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
 }
 
- #mssg::placeholder {
+#mssg::placeholder {
   text-align: left;
   position: absolute;
   top: 15px;
