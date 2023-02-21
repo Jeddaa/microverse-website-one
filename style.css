@@ -206,14 +206,14 @@ body {
 
 .small-langul {
   color: #6070ff;
-  /* display: flex; */
+  /* display: flex;
   flex-direction: row;
   align-items: center;
+  float: left;
+  position: absolute; */
+  margin-bottom: 5px;
   font-style: normal;
   padding: 4px 0;
-  /* position: absolute; */
-  margin-bottom: 5px;
-  /* float: left; */
 }
 
 .small-langli {
