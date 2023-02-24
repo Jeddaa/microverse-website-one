@@ -168,6 +168,6 @@ A special thank you to my learning partners and standup team for their help and 
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Jeddaa/microverse-website-one/blob/more-features/LICENSE) licensed.
+This project is [MIT](https://github.com/Jeddaa/microverse-website-one/blob/contact-me/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

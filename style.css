@@ -1,10 +1,10 @@
 * {
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
 }
 
 body {
   background-color: #e5e5e5;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
 }
 
 .template1 {
@@ -13,20 +13,33 @@ body {
 }
 
 .headline {
-  display: flex;
-  flex-direction: column;
   background: url("./icons/main-bg.png") white;
   background-repeat: no-repeat;
   background-size: 100%;
   background-color: #fff;
   padding: 100px 5%;
-  border-radius: 0 0 0 100px;
+  display: grid;
+  place-items: center;
+  border-radius: 0 0 0 80px;
+}
+
+.headline-content {
+  display: flex;
+  flex-direction: column;
   position: relative;
+  width: 90%;
+  max-width: 1000px;
+}
+
+#h-tag {
+  font-size: clamp(2em, 4vw, 3.5em);
+  font-weight: 700;
+  color: #091e42;
 }
 
 .intro {
   display: flex;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   line-height: 130%;
   font-size: 100px;
@@ -37,7 +50,7 @@ body {
 .aboutme-intro {
   flex: none;
   flex-grow: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -85,13 +98,13 @@ body {
   align-items: center;
   text-align: center;
   font-style: normal;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
   color: #396df2;
   background-color: #fff;
-  border-radius: 15px 15px 15px;
+  border-radius: 15px;
   padding: 0.75em;
   width: 170px;
   height: 50px;
@@ -114,17 +127,6 @@ body {
 .contactme-header {
   font-size: clamp(32px, 4vw, 45px);
   font-weight: 700;
-}
-
-.tonic {
-  margin-bottom: 0;
-}
-
-.multi {
-  width: 250px;
-  height: 80px;
-  line-height: 40px;
-  margin-bottom: 0;
 }
 
 .work-cards {
@@ -178,11 +180,12 @@ body {
   background-repeat: no-repeat;
   background-size: 100%;
   background-color: #fff;
-  padding: 100px 5%;
+  padding: 100px 5% 120px;
   border-radius: 0 25px 0 0;
   position: relative;
   left: 0;
-  top: 100px;
+  top: 90px;
+  margin-bottom: 20px;
 }
 
 .about-header {
@@ -235,7 +238,7 @@ body {
   align-items: center;
   text-align: center;
   font-style: normal;
-  font-family: 'Poppins', sans-serif;
+  font-family: Poppins, sans-serif;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -339,25 +342,40 @@ hr {
 }
 
 .contact-me {
-  border-radius: 25px 0 0 0;
+  border-radius: 80px 0 0;
   border: 1px;
-  background-color:#6070FF;
-  top: 70px;
+  background-color: #6070ff;
+  top: 10px;
   color: #fff;
-  /* align-items: center; */
   text-align: center;
-  padding: 70px 16px 20px 16px;
+  padding: 40px 16px 20px;
 }
 
-.dot1 {
-  position: relative;
-  top: -30px;
+.contact-me::before {
+  content: url('./icons/bottom-icon.png');
+  position: absolute;
+  bottom: 40px;
+  right: 20px;
 }
 
 .contactme-header {
   color: #fff;
   padding-bottom: 20px;
   font-size: 40px;
+}
+
+.contactme-header::before {
+  content: url('./icons/dot1.png');
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+}
+
+.contactme-form::before {
+  content: url('./icons/top-icon.png');
+  position: absolute;
+  right: -15px;
+  top: 15px;
 }
 
 .contactme-p {
@@ -371,27 +389,28 @@ hr {
 #name {
   height: 48px;
   border-radius: 8px;
-  border: 1px solid #CFD8DC;
+  border: 1px solid #cfd8dc;
   margin-bottom: 20px;
   font-size: 17px;
   line-height: 20px;
   font-weight: 400;
-
 }
 
 #mssg {
   height: 170px;
   border-radius: 8px;
-  border: 1px solid #CFD8DC;
+  border: 1px solid #cfd8dc;
   margin-bottom: 20px;
   font-size: 15px;
   font-weight: 400;
   line-height: 24px;
 }
 
- #mssg::placeholder {
-  text-align:left;
+#mssg::placeholder {
+  text-align: left;
   position: absolute;
+  top: 15px;
+  bottom: 15px;
   left: 16px;
   right: 38px;
 }
@@ -401,11 +420,10 @@ hr {
   align-items: center;
   text-align: center;
   font-style: normal;
-  font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  color: #396df2;
+  color: #6070ff;
   background-color: #fff;
   border-radius: 8px;
   padding: 12px 16px;
@@ -413,8 +431,16 @@ hr {
   height: 48px;
   margin-top: 5px;
   margin-bottom: 30px;
-  border: 1px solid #7F8CFF;
-  /* border: 1px solid #6070ff; */
+  border: 1px solid #7f8cff;
+}
+
+.getintouch:active {
+  background: #2230d2;
+}
+
+.getintouch:hover {
+  background-color: #6070ff;
+  color: #fff;
 }
 
 .dot2 {
@@ -429,4 +455,62 @@ hr {
   position: absolute;
   bottom: 55px;
   right: 25px;
+}
+
+@media screen and (min-width: 768px) {
+  .headline {
+    padding: 10em 0;
+  }
+
+  .works {
+    align-content: center;
+  }
+
+  .work-cards {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 0 1em 0 1em;
+    max-width: 1000px;
+    padding: 1em;
+    align-self: center;
+
+    /* height: 600px; */
+  }
+
+  .work-img {
+    width: 40vw;
+    max-width: 500px;
+    height: auto;
+
+    /* float: left; */
+  }
+
+  /* .work-img::before {
+    content: url('./icons/newtonic1.png');
+    width: 30vw;
+    max-width: 500px;
+  } */
+
+  .work-cards-text {
+    padding: 0.5em;
+  }
+
+  .navbar {
+    animation-duration: 3s;
+    animation-name: slidein;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 30%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 30%;
+    }
+  }
 }
