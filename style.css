@@ -495,7 +495,7 @@ hr {
     padding: 0.5em;
   }
 
-  /* .navbar {
+  .navbar {
     animation-duration: 3s;
     animation-name: slidein;
     animation-iteration-count: 1;
@@ -511,6 +511,6 @@ hr {
     to {
       margin-left: 0%;
       width: 30%;
-    } */
+    }
   }
 }
