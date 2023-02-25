@@ -508,4 +508,42 @@ hr {
       width: 30%;
     }
   }
+
+  @keyframes animation {
+    from {
+      border-bottom: none;
+    }
+
+    to {
+      border-bottom: 1px solid #2230d2;
+    }
+  }
+
+  .desktop-nav > ul > li:active {
+    color: #2230d2;
+    cursor: pointer;
+    animation-name: animation;
+    animation-duration: 0.3s;
+  }
+
+  .desktop-nav > ul > li:hover {
+    color: #2230d2;
+    cursor: pointer;
+    animation-name: animation;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 30%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 30%;
+    }
+  }
 }
