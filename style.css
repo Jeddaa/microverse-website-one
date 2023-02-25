@@ -502,11 +502,29 @@ hr {
       margin-left: 100%;
       width: 30%;
     }
+  }
 
-    to {
-      margin-left: 0%;
-      width: 30%;
-    }
+  .desktop-nav > ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-style: normal;
+    padding: 0.25em 2em;
+    position: absolute;
+    list-style-type: none;
+    right: 10px;
+  }
+
+  .desktop-nav > ul > li {
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 15px;
+    align-items: center;
+    font-style: normal;
+    padding: 1em;
+    line-height: 20px;
+    color: #344563;
   }
 
   @keyframes animation {
