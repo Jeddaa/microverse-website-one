@@ -159,7 +159,6 @@ body {
 }
 
 .canopy {
-  /* font-size: 13px; */
   font-weight: 500;
   padding: 0;
 }
@@ -319,8 +318,6 @@ body {
 
 .lang-ul > li {
   color: #253858;
-
-  /* list-style-type: none; */
   font-style: normal;
   font-size: 17px;
   border: 1px;
@@ -679,5 +676,78 @@ hr {
     animation-name: slidein;
     animation-iteration-count: 1;
     animation-direction: alternate;
+  }
+
+  .desktop-nav-p {
+    padding-top: 1em;
+    padding-left: 1em;
+    font-size: 18px;
+    line-height: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #6070ff;
+  }
+
+  .desktop-nav > ul {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-style: normal;
+    padding: 0.25em 2em;
+    position: absolute;
+    list-style-type: none;
+    right: 10px;
+  }
+
+  .desktop-nav > ul > li {
+    text-decoration: none;
+    list-style-type: none;
+    font-weight: 500;
+    font-size: 15px;
+    align-items: center;
+    font-style: normal;
+    padding: 1em;
+    line-height: 20px;
+    color: #344563;
+  }
+
+  @keyframes animation {
+    from {
+      border-bottom: none;
+    }
+
+    to {
+      border-bottom: 1px solid #2230d2;
+    }
+  }
+
+  .desktop-nav > ul > li:active {
+    color: #2230d2;
+    cursor: pointer;
+    animation-name: animation;
+    animation-duration: 0.3s;
+  }
+
+  .desktop-nav > ul > li:hover {
+    color: #2230d2;
+    cursor: pointer;
+    animation-name: animation;
+    animation-duration: 0.3s;
+    animation-timing-function: ease-in;
+    animation-fill-mode: forwards;
+  }
+
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 30%;
+    }
+
+    to {
+      margin-left: 0%;
+      width: 30%;
+    }
   }
 }
