@@ -57,7 +57,7 @@ Hello welcome to my **[Portfolio]**, here you'll find details about me and some 
 
 ## 🚀 Live Demo <a name="https://jeddaa.github.io/microverse-website-one/"></a>
 
-If you prefer to see the finished version of the project visit the [live site]()
+If you prefer to see the finished version of the project visit the [live site](https://jeddaa.github.io/microverse-website-one/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
