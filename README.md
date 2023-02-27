@@ -55,7 +55,7 @@ Hello welcome to my **[Portfolio]**, here you'll find details about me and some 
 
 <!-- LIVE DEMO -->
 
-## 🚀 Live Demo <a name="live-demo"></a>
+## 🚀 Live Demo <a name="https://jeddaa.github.io/microverse-website-one/"></a>
 
 If you prefer to see the finished version of the project visit the [live site]()
 
@@ -168,6 +168,6 @@ A special thank you to my learning partners and standup team for their help and 
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/Jeddaa/microverse-website-one/blob/contact-me/LICENSE) licensed.
+This project is [MIT](https://github.com/Jeddaa/microverse-website-one/blob/main/LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
