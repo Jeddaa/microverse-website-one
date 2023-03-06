@@ -9,6 +9,33 @@ body {
   font-family: Poppins, sans-serif;
 }
 
+.topnav {
+  overflow: hidden;
+  position: relative;
+  background-color: #FFFFFF;
+  color: #6070ff;
+}
+
+.topnav #myLinks {
+  display: none;
+  text-align: end;
+}
+
+.topnav a {
+  color: #6070ff;
+  padding: 14px 10px;
+  text-decoration: none;
+  font-size: 17px;
+  display: block;
+}
+
+.topnav a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
 .template1 {
   left: 0;
   top: 0;
@@ -497,6 +524,10 @@ hr {
 }
 
 @media screen and (min-width: 768px) {
+  .mobile-header {
+    display: none;
+  }
+
   .headline {
     padding: 10em 0;
   }
