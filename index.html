@@ -14,19 +14,17 @@
   </head>
 
   <body>
-    <header class="mobile-header">
-      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
-      <div class="topnav">
-        <a href="#home" class="active">My Logo</a>
-        <div id="myLinks">
-          <a href="#Portfolio">Portfolio</a>
-          <a href="#Contact">Contact</a>
-          <a href="#About">About</a>
-        </div>
-        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </div>
+    <header id="Home" class="mobile-header">
+      <nav class="navbar">
+        <div class="logo">My Logo</div>
+        <div class="openMenu"><i class="fa fa-bars"></i></div>
+        <ul class="mainMenu">
+          <li class=""><a href="#Portfolio" class="nav-link">Portfolio</a></li>
+          <li class=""><a href="#About" class="nav-link">About</a></li>
+          <li class=""><a href="#Contact" class="nav-link">Contact</a></li>
+          <div class="closeMenu"><i class="fa fa-times"></i></div>
+        </ul>
+      </nav>
     </header>
     <nav class="desktop-nav">
       <div class="desktop-nav-p">
@@ -404,15 +402,6 @@
         </form>
       </div>
     </section>
-    <script>
-      function myFunction() {
-        var x = document.getElementById("myLinks");
-        if (x.style.display === "block") {
-          x.style.display = "none";
-        } else {
-          x.style.display = "block";
-        }
-      }
-    </script>
+    <script src="./index.js"></script>
   </body>
 </html>
