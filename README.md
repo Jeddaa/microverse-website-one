@@ -151,6 +151,8 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
+A popup menu for work cards.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
