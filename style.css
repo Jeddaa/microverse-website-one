@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;700&display=swap');
 
 * {
   font-family: Poppins, sans-serif;
@@ -102,7 +102,7 @@ nav .logo {
 }
 
 .headline {
-  background: url("./icons/main-bg.png") white;
+  background: url('./icons/main-bg.png') white;
   background-repeat: no-repeat;
   background-size: 100%;
   background-color: #fff;
@@ -473,7 +473,7 @@ hr {
 }
 
 .contact-me::before {
-  content: url("./icons/bottom-icon.png");
+  content: url('./icons/bottom-icon.png');
   position: absolute;
   bottom: 40px;
   right: 20px;
@@ -486,14 +486,14 @@ hr {
 }
 
 .contactme-header::before {
-  content: url("./icons/dot1.png");
+  content: url('./icons/dot1.png');
   display: flex;
   flex-direction: column;
   padding-bottom: 20px;
 }
 
 .contactme-form::before {
-  content: url("./icons/top-icon.png");
+  content: url('./icons/top-icon.png');
   position: absolute;
   right: 0.05em;
   top: 15px;
@@ -508,7 +508,8 @@ hr {
   padding-bottom: 20px;
 }
 
-#name {
+#name,
+.name {
   height: 48px;
   border-radius: 8px;
   border: 1px solid #cfd8dc;
@@ -577,6 +578,10 @@ hr {
   position: absolute;
   bottom: 55px;
   right: 25px;
+}
+
+.error-message {
+  color: rgb(233, 65, 65);
 }
 
 @media screen and (min-width: 768px) {
@@ -749,6 +754,7 @@ hr {
   }
 
   #name,
+  .name,
   #mssg {
     border-radius: 2px;
   }
