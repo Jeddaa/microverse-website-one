@@ -123,7 +123,6 @@ function displayModal(id) {
   const closeModal = document.querySelector('#modal-close');
   closeModal.addEventListener('click', () => {
     modalProjectSection.style.display = 'none';
-    body.removeChild(bg);
   });
 }
 
