@@ -82,6 +82,10 @@
   margin-bottom: 10px;
 }
 
+.modal-mobile-img > img {
+  width: 100%;
+}
+
 .modal-desktop-img {
   display: none;
 }
