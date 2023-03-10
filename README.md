@@ -41,6 +41,7 @@ Hello welcome to my **[Portfolio]**, here you'll find details about me and some 
   <ul>
     <li><a href="#">HTML</a></li>
     <li><a href="#">CSS</a></li>
+    <li><a href="#">Javascript</a></li>
   </ul>
 </details>
 
@@ -49,7 +50,9 @@ Hello welcome to my **[Portfolio]**, here you'll find details about me and some 
 ### Key Features <a name="key-features"></a>
 
 - Toolbar section
-- Healine sections
+- Portfolio section
+- About Me section
+- Contact Me section
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -82,7 +85,9 @@ Clone this repository to your desired folder:
 
 ### Install
 
-Install this project with:
+You don't have to install the project. All you need to do is clone it with the above command
+
+<!-- Install this project with: -->
 
 <!--
 Example command:
@@ -101,6 +106,12 @@ Once you have the live server extension, you need the click on the **Go Live** i
 
 To run tests, run the following command:
 
+```shell
+  npx hint .
+  npx stylelint "\*_/_.{css,scss}"
+
+```
+
 <!--
 Example command:
 
@@ -111,7 +122,9 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using:
+<!-- You can deploy this project using: -->
+
+Project has already been deployed
 
 <!--
 Example:
@@ -138,11 +151,19 @@ Example:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
+A popup menu for work cards.
+
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTRIBUTING -->
 
 ## 🤝 Contributing <a name="contributing"></a>
+
+Contributions have been made and accepted by:
+
+- GitHub: [BranBayou](https://github.com/BranBayou)
+
+- GitHub: [touredri](https://github.com/touredri)
 
 Contributions, issues, and feature requests are welcome!
 
