@@ -81,8 +81,6 @@ const popupProjects = [
 
 const modalProjectSection = document.querySelector('.workSection');
 const body = document.querySelector('body');
-// eslint-disable-next-line max-len
-// const openMobile1 = [document.querySelector('#mobile1'), document.querySelector('#mobile2'), document.querySelector('#mobile3'), document.querySelector('#mobile4  ')];
 
 const opentesting = document.querySelector('#opentesting');
 const closetesting = document.querySelector('#modal-close');
@@ -122,14 +120,9 @@ function displayModal(id) {
             </div>
           </div>
   `;
-  // modalProjectSection.style.top = '0';
   const closeModal = document.querySelector('#modal-close');
   closeModal.addEventListener('click', () => {
     modalProjectSection.style.display = 'none';
     body.removeChild(bg);
   });
 }
-// function closed() {
-//   modalProjectSection.style.display = 'none';
-//   modalProjectSection.style.top = '-100%';
-// }
