@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;500;700&display=swap');
+
+#modal {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  position: fixed;
+  background-color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 95vw;
+  height: auto;
+  max-height: 90vh;
+  font-family: Poppins, sans-serif;
+  z-index: 1000;
+  border: 1px solid #dfe1e6;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.modal-overlay {
+  background: #c1c7d0;
+  opacity: 100%;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  mix-blend-mode: multiply;
+  pointer-events: none;
+}
+
+.modal-header {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  margin-bottom: 0;
+}
+
+.modal-text-header {
+  color: #172b4d;
+  font-size: 32px;
+  font-weight: 700;
+  font-style: normal;
+  text-align: left;
+  align-self: flex-start;
+  line-height: 1.3;
+}
+
+#modal-close {
+  background: none;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.modal-mobile-texts {
+  font-size: 15px;
+  font-style: regular;
+  line-height: 24px;
+  color: #344563;
+  margin-bottom: 5px;
+}
+
+.modal-desktop-texts {
+  display: none;
+}
+
+.modal-mobile-img {
+  flex: none;
+  flex-grow: 0;
+  border-top: 5px;
+  background-color: #fff;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.modal-desktop-img {
+  display: none;
+}
+
+.modal-desktop-lang {
+  display: none;
+}
+
+.modal-canopy-list {
+  display: flex;
+  align-items: center;
+  height: 20px;
+  padding: 0;
+  margin-top: 10px;
+  justify-content: flex-start;
+  gap: 25px;
+  margin-bottom: 10px;
+  font-size: 13px;
+}
+
+.modal-canopy-list > li {
+  color: #6b778c;
+  font-weight: 400;
+  line-height: 16px;
+}
+
+.modal-mobile-lang {
+  color: #6070ff;
+  margin-bottom: 15px;
+  font-style: normal;
+  padding: 0;
+  height: 40px;
+}
+
+.modal-mobile-lang > li {
+  align-self: flex-start;
+  color: #6070ff;
+  background-color: #ebebff;
+  align-items: center;
+  font-style: normal;
+  padding: 4px 8px;
+  margin: 10px 5px;
+  list-style-type: none;
+  border-radius: 5px;
+  font-size: 12px;
+  border: 0;
+  float: left;
+}
+
+.modal-line-break {
+  align-self: center;
+  border: 1px solid #ebecf0;
+  width: 80vw;
+  height: 0;
+  margin: 0.5em;
+}
+
+.modal-button-div {
+  margin-top: 10px;
+  gap: 2em;
+  padding: 10px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: none;
+  margin-bottom: 0;
+}
+
+.modal-button {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  text-align: left;
+  font-style: normal;
+  font-family: Poppins, sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  gap: 5px;
+  line-height: 20px;
+  color: #6070ff;
+  background-color: #fff;
+  border-radius: 8px;
+  border: 1px solid #396df2;
+  padding: 0.5em;
+  width: 130px;
+  height: 40px;
+  margin-bottom: 8px;
+}
+
+.modal-button:hover {
+  background-color: #6070ff;
+  color: #fff;
+}
+
+.modal-button:hover > a {
+  color: #fff;
+}
+
+.modal-button:active {
+  background: #2230d2;
+}
+
+.modal-button > a:hover,
+.modal-button > a:visited,
+.modal-button > a:link,
+.modal-button > a:active {
+  text-decoration: none;
+}
+
+@media screen and (min-width: 880px) {
+  .modal-text-header {
+    font-size: 40px;
+  }
+
+  .modal {
+    width: 70vw;
+  }
+
+  .modal-mobile-texts {
+    display: none;
+  }
+
+  .modal-mobile-img {
+    display: none;
+  }
+
+  .modal-desktop-img {
+    display: revert;
+    align-content: center;
+    width: 90%;
+    height: 40%;
+    max-width: 1400px;
+    max-height: 600px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+  }
+
+  .modal-desktop-img > img {
+    flex: none;
+    flex-grow: 0;
+    border-top: 5px;
+    background-color: #fff;
+    width: 100%;
+    margin-bottom: 10px;
+    height: auto;
+    max-width: 1400px;
+    max-height: 600px;
+  }
+
+  .modal-desktop {
+    padding: 0;
+    padding: 10px 15px;
+    display: flex;
+    gap: 0.5em;
+    justify-content: stretch;
+    border: none;
+    margin-bottom: 0;
+  }
+
+  .modal-desktop-texts {
+    width: 100%;
+    float: left;
+    display: revert;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: regular;
+    line-height: 30px;
+    color: #344563;
+    margin-bottom: 5px;
+  }
+
+  .modal-desktop2 {
+    width: 30%;
+    float: right;
+  }
+
+  .modal-desktop-lang {
+    display: revert;
+    color: #6070ff;
+    margin-bottom: 15px;
+    font-style: normal;
+    padding: 0;
+    height: 40px;
+  }
+
+  .modal-desktop-lang > li {
+    align-self: flex-start;
+    color: #6070ff;
+    background-color: #ebebff;
+    align-items: center;
+    font-style: normal;
+    padding: 4px 8px;
+    margin: 10px 5px;
+    list-style-type: none;
+    border-radius: 5px;
+    font-size: 12px;
+    border: 0;
+    float: left;
+  }
+
+  .modal-mobile-lang {
+    display: none;
+  }
+
+  .modal-button-div {
+    margin-top: 10px;
+    gap: 0.5em;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: none;
+    margin-bottom: 0;
+  }
+
+  .modal-button {
+    padding: 0.2em;
+    font-size: 12px;
+    padding-top: 0.6em;
+  }
+
+  .modal-button > a {
+    gap: 0;
+    padding-right: 0;
+    margin: 0;
+  }
+}

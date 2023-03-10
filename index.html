@@ -7,6 +7,7 @@
     <title>Jedda Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -68,7 +69,7 @@
     </section>
     <br />
     <section id="Portfolio" class="works">
-      <div class="work-cards tonic 1">
+      <div class="work-cards tonic">
         <div class="mobile-work-img"><img class="mobile-work-img" src="icons/tonic1.png" alt="Work card image" /></div>
         <div class="desktop-work-img"><img src="icons/newtonic1.png" alt="tonic image" /></div>
         <div class="work-cards-text">
@@ -93,7 +94,7 @@
             <li class="small-langli">javascript</li>
           </ul>
           <div>
-            <button type="button" class="seeproject mobile-multipost active">See Project</button>
+            <button id="mobile1" onclick="displayModal(0)" type="button" class="seeproject mobile-multipost active">See Project</button>
           </div>
           <div class="desktop-multipost">
             <ul class="canopy-list">
@@ -115,7 +116,7 @@
             <li class="small-langli">javascript</li>
           </ul>
           <div class="seebutton-div">
-            <button type="button" class="seeproject desktop-multipost active">See Project</button>
+            <button id="desktop1" onclick="displayModal(0)" type="button" class="seeproject desktop-multipost active">See Project</button>
           </div>
         </div>
       </div>
@@ -147,7 +148,7 @@
             <li class="small-langli">javascript</li>
           </ul>
           <div>
-            <button type="button" class="seeproject mobile-multipost active">See Project</button>
+            <button id="mobile2" onclick="displayModal(1)" type="button" class="seeproject mobile-multipost active">See Project</button>
           </div>
           <div class="desktop-multipost">
             <ul class="canopy-list">
@@ -170,11 +171,11 @@
             <li class="small-langli">javascript</li>
           </ul>
           <div>
-            <button type="button" class="seeproject desktop-multipost active">See Project</button>
+            <button id="desktop2" onclick="displayModal(1)" type="button" class="seeproject desktop-multipost active">See Project</button>
           </div>
         </div>
       </div>
-      <div class="work-cards facebook 1">
+      <div class="work-cards facebook">
         <div class="mobile-work-img"><img class="mobile-work-img" src="icons/tonic2.png" alt="" /></div>
         <div class="desktop-work-img"><img src="icons/tonic1.png" alt="tonic image" /></div>
         <div class="work-cards-text">
@@ -199,7 +200,7 @@
             <li class="small-langli">javascript</li>
           </ul>
           <div>
-            <button type="button" class="seeproject mobile-multipost active">See Project</button>
+            <button id="mobile3" onclick="displayModal(2)" type="button" class="seeproject mobile-multipost active">See Project</button>
           </div>
           <h2 id="h-tag" class="desktop-multipost">Facebook 360</h2>
           <div class="desktop-multipost">
@@ -223,7 +224,7 @@
             <li class="small-langli">javascript</li>
           </ul>
           <div>
-            <button type="button" class="seeproject facebook-btn desktop-multipost active">See Project</button>
+            <button id="desktop3" onclick="displayModal(2)" type="button" class="seeproject facebook-btn desktop-multipost active">See Project</button>
           </div>
         </div>
       </div>
@@ -246,6 +247,7 @@
               <li>2015</li>
             </ul>
           </div>
+          <div class="mobile-work-img"><img class="mobile-work-img" src="icons/multipost2.png" alt="work card image" /></div>
           <div class="aboutme-intro mobile-multipost">
             <p id="p-tag">A daily selection of privately personalized reads; no accounts or sign-ups required.</p>
           </div>
@@ -255,7 +257,7 @@
             <li class="small-langli">javascript</li>
           </ul>
           <div>
-            <button type="button" class="seeproject mobile-multipost active">See Project</button>
+            <button id="mobile4" onclick="displayModal(3)" type="button" class="seeproject mobile-multipost active">See Project</button>
           </div>
           <h2 id="h-tag" class="desktop-multipost">Uber Navigation</h2>
           <div class="desktop-multipost">
@@ -279,11 +281,15 @@
             <li class="small-langli">javascript</li>
           </ul>
           <div>
-            <button type="button" class="seeproject desktop-multipost active">See Project</button>
+            <button id="desktop4" onclick="displayModal(3)" type="button" class="seeproject desktop-multipost active">See Project</button>
           </div>
         </div>
       </div>
     </section>
+    <section>
+      <div id="modal" class="workSection modal"></div>
+    </section>
+
     <br />
     <section id="About" class="aboutme">
       <div class="aboutme-test">
