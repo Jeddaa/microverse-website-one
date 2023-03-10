@@ -375,3 +375,26 @@ Form.addEventListener('submit', (e) => {
     ErrorMessage.textContent = 'Please make sure your email is in lower case';
   }
 });
+
+const named = document.getElementById('name');
+const email = document.getElementById('email-address');
+const message = document.getElementById('mssg');
+
+const inputField = [named, email, message];
+
+inputField.forEach((item) => {
+  item.addEventListener('input', () => {
+    const data = {
+      name: named.value,
+      email: email.value,
+      message: message.value,
+    };
+
+    localStorage.setItem('client-data', JSON.stringify(data));
+  });
+});
+
+const dataSaved = JSON.parse(localStorage.getItem('client-data'));
+named.value = dataSaved.name;
+email.value = dataSaved.email;
+message.value = dataSaved.message;
