@@ -389,12 +389,7 @@ inputField.forEach((item) => {
       email: email.value,
       message: message.value,
     };
-
-    localStorage.setItem('client-data', JSON.stringify(data));
   });
 });
 
 const dataSaved = JSON.parse(localStorage.getItem('client-data'));
-named.value = dataSaved.name;
-email.value = dataSaved.email;
-message.value = dataSaved.message;
