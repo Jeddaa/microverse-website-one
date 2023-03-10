@@ -247,6 +247,9 @@ function testing() {
     window.addEventListener('load', createDesktopSection(desktopProject));
   }
   // window.location.reload();
+  setTimeout(() => {
+    document.location.reload();
+  }, 10000);
 }
 // const events = ['resize', 'orientationchange', 'load', 'reload'];
 testing();
